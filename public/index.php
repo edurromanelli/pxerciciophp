@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Teste PHP no Codespace</title>
-</head>
-<body>
-    <h1>Olá do PHP no Codespace!</h1>
-    <p>A versão do PHP é: <?php echo phpversion(); ?></p>
-    <p>A data atual é: <?php echo date('Y-m-d H:i:s'); ?></p>
-</body>
-</html>
+<?php
+define("NOME_CURSO", Sistemas.de.informação);
+define("INSTITUIÇÃO", Multivix);
+$semestre_atual = 5;
+echo "Estou no {$semestre_atual}° período do curso de " . NOME_CURSO . " na " . INSTITUICAO . ".";
+?>
